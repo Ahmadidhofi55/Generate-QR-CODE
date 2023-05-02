@@ -22,9 +22,9 @@ export default function RootLayout({
         <meta name="description" content="Generate high-quality QR codes for free with our easy-to-use QR code generator. Create custom codes for your website, business cards, and more. Our tool supports multiple QR code types and allows you to customize the colors and design. Start generating QR codes today and enhance your marketing strategy with ease." />
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
       </head>
-      <body className="  dark:bg-gray-900">
+      <body className=" bg-gray-50 dark:bg-gray-800">
         {/* Navbar */}
-        <Navbar
+        <Navbar 
           fluid={true}
           rounded={true}
         >
