@@ -1,8 +1,9 @@
 "use client"
-import react from "react";
+import  { useState } from "react";
+import textcomponent from "./components/textcomponent";
 import BarComponent from "./components/barcomponent";
 
-export default function page() {
+export default function Page() {
     return (
                 <BarComponent />
        )
